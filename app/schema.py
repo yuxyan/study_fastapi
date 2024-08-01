@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 class User(BaseModel):
     uid: int
-    name: str
+    username: str
     privilege: str | None = None
 
 
