@@ -16,7 +16,7 @@ def get_user_name(db: Session, name: str):
 
 def create_user(db: Session, user: schema.UserIn):
     hash_password = encode_password(user.password)
-    db_user = models.User(uid=user.uid, username=user.name, password=hash_password, privilege=user.privilege)
+    db_user = models.User(uid=user.uid, username=user.username, password=hash_password, privilege=user.privilege)
     db.add(db_user)
     db.commit()
     db.refresh(db_user)
@@ -48,3 +48,19 @@ def update_user_info(db: Session, user_uid: int, new_name: str | None = None, ne
     db.commit()
     db.refresh(db_user)
     return db_user
+
+
+def create_household(db: Session, household: schema.HouseholdInfo):
+    db_household = models.Household(building_number=household.building_number,
+                                    room_number=household.room_number,
+                                    area=household.area, telephone_number=household.telephone_number,
+                                    person_name=household.person_name, work_unit=household.work_unit,
+                                    home_number=household.home_number, weixiu_money=household.weixiu_money)
+    db.add(db_household)
+    db.commit()
+    db.refresh(db_household)
+    return db_household
+
+
+def get_household(db: Session, building_number: str, room_number: str):
+    return db.query(models.Household).filter(models.Household.building_number+models.Household.room_number == building_number+room_number).first()
