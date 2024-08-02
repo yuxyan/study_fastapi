@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aa5a55f-dc3c-4b72-abc1-2ab2b5ba4727" name="更改" comment="v0.2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/crud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schema.py" afterDir="false" />
-    </list>
+    <list default="true" id="1aa5a55f-dc3c-4b72-abc1-2ab2b5ba4727" name="更改" comment="v0.2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +36,12 @@
   "selectedUrlAndAccountId": {
     "first": "https://git.datagrand.com/yuxiangyan/test1_fastapi.git",
     "second": "2943c566-632d-4856-8cf6-1bda3885394a"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/yuxyan/study_fastapi.git",
+    "accountId": "07b41857-8cbf-4f1f-8edf-f694eb850e02"
   }
 }]]></component>
   <component name="PerforceDirect.Settings">
@@ -146,7 +146,7 @@
       <workItem from="1722414074971" duration="8246000" />
       <workItem from="1722473491307" duration="9000" />
       <workItem from="1722473754627" duration="15086000" />
-      <workItem from="1722559401918" duration="19636000" />
+      <workItem from="1722559401918" duration="20097000" />
     </task>
     <task id="LOCAL-00001" summary="v0.1">
       <option name="closed" value="true" />
@@ -172,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722507932521</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="v0.2">
+      <option name="closed" value="true" />
+      <created>1722592746208</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722592746208</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
